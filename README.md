@@ -11,8 +11,8 @@ Funcionalidades implementadas:
 - calcular y devolver el precio final de un producto aplicando el descuento correspondiente
 
 Pasos para ejecutar:
-1. Primero tienes que tener corriendo el microservicio de Promociones en el puerto 8083, si no, este va a tirar error al querer conectarse.
+1. Primero tienes que tener corriendo el microservicio de Promociones en el puerto 8084, si no, este va a tirar error al querer conectarse.
 2. tener mysql corriendo.
 3. correr la aplicación. acá se usa jpa update así que la bd catalogo_db se crea automáticamente.
-4. el servicio corre en el puerto 8084. 
+4. el servicio corre en el puerto 8083. 
 5. probar creando un producto y luego usando el endpoint de "/{id}/precio-final" para ver como consume al otro servicio.
