@@ -19,8 +19,8 @@ public class CatalogoService {
     @Autowired
     private WebClient webClient;
 
-    public void guardarProducto(Catalogo producto) {
-        repository.save(producto);
+    public Catalogo guardarProducto(Catalogo producto) {
+        return repository.save(producto);
     }
 
     public Double obtenerPrecioFinal(Catalogo producto) {

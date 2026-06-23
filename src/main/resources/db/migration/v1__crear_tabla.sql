@@ -1,0 +1,6 @@
+CREATE TABLE catalogo (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL,
+    precio DECIMAL(10,2) NOT NULL,
+    stock INT DEFAULT 0
+);
